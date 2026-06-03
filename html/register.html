@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JeniusAcademy</title>
+    <!-- Link CSS-->
+    <link rel="stylesheet" href="../css/register.css">
+    <!-- icons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"><a href="home.html">JeniusAcademy</a></label>
+      <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a class="active" href="register.html">Register</a></li>
+          <li><a href="subscription.html">Subscription</a></li>
+          <li><a href="testimony.html">Testimony</a></li>
+          <li><a href="learn.html">Learn</a></li>
+      </ul>
+  </nav>
+
+    <!-- form section -->
+    <section class="section form">
+        <div class="form-container">
+            <form>
+              <h4>Create Your Account</h4>
+              <div class="input-section">
+                <label>First Name <span class="required-color">*</span></label>
+                <input type="text" placeholder="Enter First Name" id="first-name-input"/>
+                <span id="first-name-error" class="hide required-color error-message"
+                  >Invalid Input</span>
+                <span id="empty-first-name" class="hide required-color error-message">
+                  Please enter first name
+                </span>
+              </div>
+
+              <div class="input-section">
+                <label>Last Name <span class="required-color">*</span></label>
+                <input type="text" placeholder="Enter Last Name" id="last-name-input"/>
+                <span id="last-name-error" class="hide required-color error-message">
+                  Invalid Input</span>
+                <span id="empty-last-name" class="hide required-color error-message">
+                  Please enter last name
+                </span>
+              </div>
+
+              <div class="input-section">
+                <label>Email <span class="required-color">*</span></label>
+                <input type="email" placeholder="Enter Email" id="email"/>
+                <span id="email-error" class="hide required-color error-message">
+                  Invalid Email
+                </span>
+                <span id="empty-email" class="hide required-color error-message">
+                  Email Cannot Be Empty
+                </span>
+              </div>
+
+              <div class="input-section">
+                <label>Phone <span class="required-color">*</span></label>
+                <input type="text" placeholder="Enter Phone Number" id="phone"/>
+                <span id="phone-error" class="hide required-color error-message">
+                  Phone Number Should Have 10 Digits
+                </span>
+                <span id="empty-phone" class="hide required-color error-message">
+                  Phone cannot be empty
+                </span>
+              </div>
+
+              <div class="input-section">
+                <label>Password <span class="required-color">*</span></label>
+                <input type="password" placeholder="Enter Password" id="password"/>
+                <span id="password-error" class="hide required-color error-message">
+                  Passwords should have 1 capital letter, 1 small letter, 1 numbers And Length >= 8
+                </span>
+                <span id="empty-password" class="hide required-color error-message">
+                  Password Cannot Be Empty
+                </span>
+              </div>
+
+              <div class="input-section">
+                <label>Confirm Password <span class="required-color">*</span></label>
+                <input type="password" id="verify-password" placeholder="Confirm Password"/>
+                <span id="verify-password-error" class="hide required-color error-message">
+                  Should Be Same As Previous Password
+                </span>
+                <span id="empty-verify-password" class="hide required-color error-message">
+                  Password Cannot Be Empty
+                </span>
+              </div>
+
+              <button id="submit-button">Sign up</button>
+            </form>
+    </section>
+    </div>
+      
+
+    <!-- Footer Section -->
+    <footer class="section footer">
+        <div class="footer-container container">
+                <div class="footer-content">
+                    <a href="#" class="logo-content flex">
+                            <i class='bx bx-book logo-icon'></i>
+                            <span class="logo-text">JeniusAcademy</span>
+                        </a>
+
+                        <p class="content-description">JeniusAcademy is a premier online learning platform designed to support students from elementary school through college entrance exams. Join our community and start your journey to success today.</p>
+
+                        <div class="footer-location flex">
+                            <i class='bx bx-map map-icon'></i>
+                            
+                            <div class="location-text">
+                                    Indonesia Tangerang St.Jalur Sutera Bar, Banten 15143
+                            </div>
+                        </div>
+                </div>
+
+                <div class="footer-linkContent">
+                        <ul class="footer-links">
+                                <h4 class="footerLinks-title">Facility</h4>
+
+                                <li><a href="#" class="footer-link">Interactive Learning Tools</a></li>
+                                <li><a href="#" class="footer-link">Personalized Tutoring</a></li>
+                                <li><a href="#" class="footer-link">Performance Reports</a></li>
+                                <li><a href="#" class="footer-link">Progress Tracking</a></li>
+                                <li><a href="#" class="footer-link">Customizable Study Plans</a></li>
+                        </ul>
+                        <ul class="footer-links">
+                                <h4 class="footerLinks-title">Social Media</h4>
+
+                                <li><a href="#" class="footer-link">Instagram</a></li>
+                                <li><a href="#" class="footer-link">YouTube</a></li>
+                                <li><a href="#" class="footer-link">Twitter</a></li>
+                                <li><a href="#" class="footer-link">Linkedln</a></li>
+                                <li><a href="#" class="footer-link">TikTok</a></li>
+                        </ul>
+                        <ul class="footer-links">
+                                <h4 class="footerLinks-title">Support</h4>
+
+                                <li><a href="#" class="footer-link">About Us</a></li>
+                                <li><a href="#" class="footer-link">FAQs</a></li>
+                                <li><a href="#" class="footer-link">Privacy & Policy</a></li>
+                                <li><a href="#" class="footer-link">Help Center</a></li>
+                        </ul>
+                </div>
+        </div>
+        <div class="footer-copyRight">&#169; ClaraJessica. All rigths reserved</div>
+    </footer>
+
+    <!-- Script -->
+    <script src="../js/register.js"></script>
+</body>
+</html>
